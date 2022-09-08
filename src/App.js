@@ -8,7 +8,7 @@ function App() {
   const [to, setTo] = useState('en')
   const [from, setFrom] = useState('en')
   const [option, setOption] = useState([])
-
+ 
   const translate = async () => {
     try {
       const res = await fetch("https://libretranslate.com/translate", {
